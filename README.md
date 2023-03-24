@@ -35,3 +35,23 @@
     * "category_id" column
     * "subcategory_id" column
     * export campaign dataframe to csv
+
+#### Subsection 3: Create a Contacts DataFrame:
+* Extract and transform data from the contacts sheet.  Data was extracted using both the python dictionary method and the regular expression
+* Python Method:
+    * load excel file to data frame
+    * iterate through data frame using either nested for loop or list comprehension
+    * extract the dictionary values from the keys by using a Python list comprehension.
+    * Add the values for each row to a new list
+    * Create a new DataFrame that contains the extracted data
+    * Split each "name" column value into a first and last name, and place each in a new column.
+    * export data frame to csv file
+
+### Subsection 4: Create the Crowdfunding database:
+* Inspect the 4 csv files and create an ERD of the tables
+* export the ERD diagram and table schema and load to repository
+* create a new postgres database - crowdfunding_db
+* create a table schema for each of the CSV files
+* Save the database schema as a Postgres file named crowdfunding_db_schema.sql,
+* Using the database schema, create the tables in the correct order to handle the foreign keys.
+* load csv files to respective tables within the database and confirm tables return records
