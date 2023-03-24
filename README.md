@@ -20,18 +20,18 @@
 
 #### Subsection 2: Create a Campaign DataFrame:
 * Extract and transform the crowdfunding.xlsx to create a campaign DataFrame:
-** "cf_id" column
-** "contact_id" column
-** "company_name" column
-** "blurb" column, renamed to "description"
-** "goal" column, converted to the float data type
-**"pledged" column, converted to the float data type
-**"outcome" column
-** "backers_count" column
-** "country" column
-** "currency" column
-** "launched_at" column, renamed to "launch_date" and with the UTC times converted to the datetime format
-** "deadline" column, renamed to "end_date" and with the UTC times converted to the datetime format
-** "category_id" column
-** "subcategory_id" column
-* export campaign dataframe to csv
+    * "cf_id" column
+    * "contact_id" column
+    * "company_name" column
+    * "blurb" column, renamed to "description"
+    * "goal" column, converted to the float data type
+    * "pledged" column, converted to the float data type
+    * "outcome" column
+    * "backers_count" column
+    * "country" column
+    * "currency" column
+    * "launched_at" column, renamed to "launch_date" and with the UTC times converted to the datetime format
+    * "deadline" column, renamed to "end_date" and with the UTC times converted to the datetime format
+    * "category_id" column
+    * "subcategory_id" column
+    * export campaign dataframe to csv
