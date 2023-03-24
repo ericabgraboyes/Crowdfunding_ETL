@@ -14,7 +14,6 @@
 * the category dataframe should contain only 2 columns -- category and a new category_id
 ** the category_id column should contain entries going sequentially from "cat1 to catn" and relates to the number of unique categories
 * export the category dataframe to a CSV file
-
 * extract and transform the crowdfunding.xlsx data to create a dataframe for subcategory
 * the subcategory dataframe should contain the distinct list of subcategories from the crowdfunding excel file and a list of subcategory_ids, created within the dataframe
 * export the subcategory dataframe to a csv file.
